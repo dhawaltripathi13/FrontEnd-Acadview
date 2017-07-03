@@ -1,0 +1,123 @@
+.container{
+  background-color: #e9ebee;
+  /*padding-left: 0!important;
+  padding-right: 0!important;*/
+}
+/*header {
+  background-color: #4267b2;
+  height: 30px;*/
+}
+footer {
+  background-color: rgba(0,0,0,0.87);
+  height: 30px;
+}
+#wrapper {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+#main,
+#menu,
+#sidebar {
+  height: 650px;
+}
+#header {
+    background-color: #4267b2;
+    padding-right: 0!important;
+    color: white;
+}
+.grey-text{
+  color:#2a2a2a !important;
+}
+.white-text{
+  color:white!important;
+  font-weight: bold;
+}
+#header ul .glyphicon {
+    font-size: 20px;
+}
+.list-heading {
+    padding: 20px 15px 0 15px;
+}
+.sidebar-heading{
+color: #6a7180;
+font-weight: bold;
+}
+.mybadge {
+  color: grey;
+  background-color: transparent;
+  float: right;
+
+}
+.paddingicon{
+  padding-right:10px;
+  height: 24px;
+  width:30px;
+
+}
+.sidebar-options{
+  color:black;
+}
+.panel-body .glyphicon {
+    margin-left: 10px;
+    margin-right: 4px;
+}
+.text-post {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.image-post {
+    margin-bottom: 15px;
+}
+#main,#sidebar{
+  overflow: auto;
+}
+#main::-webkit-scrollbar {
+    display: none;
+}
+.comment {
+    margin: 0;
+}
+.comment-padding{
+  padding-bottom: 15px;
+}
+.tickr-icons{
+  float: right;
+  background-color: white;
+}
+.margin-search{
+  margin-bottom: 3px;
+  color: #696969;
+  background-color: #f6f6f6;
+}
+.image-edit{
+  margin-right: 8px;
+  height:25px;
+  width: 25px;
+  border-radius: 2px;
+  border-color: white;
+
+}
+.bg-panel{
+  background-color: white!important;
+  color: #365899!important;
+}
+.text-style{
+  font-weight: bold!important;
+  color: #365899!important;
+}
+.light-grey-text{
+color: #939393;
+}
+.image-panel{
+  margin-right: 8px;
+  height:32px;
+  width: 32px;
+}
+.time-adjust{
+  padding-left: 40px;
+}
+.input-area{
+  width:80%;
+  border: 3px solid transparent!important;
+}
