@@ -23,7 +23,7 @@ footer {
 }
 #header {
     background-color: #4267b2;
-    padding-right: 0!important;
+    /*padding-right: 0!important;*/
     color: white;
 }
 .grey-text{
@@ -120,4 +120,14 @@ color: #939393;
 .input-area{
   width:80%;
   border: 3px solid transparent!important;
+}
+.notification{
+  background-color: #fa3e3e;
+  border-radius: 2px;
+  color: white;
+  padding: 0px 3px;
+  font-size: 10px;
+  position: absolute;
+  top: 8px;
+  right:5px;
 }
