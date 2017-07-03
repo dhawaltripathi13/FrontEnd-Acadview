@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>
+      <link rel="shortcut icon" href="/favicon.ico">
+      Friendly!
+    </title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="ProjectOne.css" rel="stylesheet">
+      <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <div class="container" id="wrapper">
+      <header>
+        <nav class="navbar navbar-default" id="header">
+          <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header" style="margin-top: 2px">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand white-text" href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+          </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <form class="navbar-form navbar-left">
+        <div class="form-group input-group-btn">
+          <input class="form-control" placeholder="Search Friendly..." style="width:350px"><button type="submit" class="btn btn-default glyphicon glyphicon-search margin-search" style="border-radius:2px"></button>
+        </div>
+<!-- Navbar Features -->
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" class="white-text"><img src="G:\FrontEnd\img\me.jpg" class="image-edit" style="position:relative; margin-top:0; margin-bottom:0">Dhawal</a></li>
+        <li><a href="#" class="white-text">Home</a></li>
+        <li><a href="#" class="grey-text glyphicon glyphicon-user"></a></li>
+        <li><a href="#" class="grey-text glyphicon glyphicon-envelope"></a></li>
+        <li><a href="#" class="grey-text glyphicon glyphicon-globe"></a></li>
+        <li><a href="#" class="grey-text glyphicon glyphicon-question-sign"></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle grey-text" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav></header>
+
+      <div class="row" id="wrapper">
+        <div class="hidden-xs col-sm-4 col-md-3">
+          <div id="menu">
+          <ul class="nav nav-pills nav-stacked">
+            <li role="presentation"><a href="#" class="sidebar-options sidebar-heading"><img src="G:\FrontEnd\img\me.jpg" class="paddingicon">Dhawal Tripathi</a></li>
+            <li role="presentation"><a href="#" class="sidebar-options"><img src="G:\FrontEnd\img\post.png" class="paddingicon">News Feed<span class="badge mybadge">...</span></a></li>
+            <li role="presentation"><a href="#" class="sidebar-options"><img src="G:\FrontEnd\img\messenger.png" class="paddingicon">Messenger<span class="badge mybadge">4</span></a></li>
+          </ul>
+          <ul class="nav nav-pills nav-stacked">
+            <p class="list-heading sidebar-heading">SHORTCUTS</p>
+            <li role="presentation"><a href="#" class="sidebar-options"><img src="G:\FrontEnd\img\djbooth.png" class="paddingicon">DJBooth</a></li>
+            <li role="presentation"><a href="#" class="sidebar-options"><img src="G:\FrontEnd\img\8ball.jpg" class="paddingicon">8 Ball Pool<span class="badge mybadge">40+</span></a></li>
+            <li role="presentation"><a href="#" class="sidebar-options"><img src="G:\FrontEnd\img\nbalive.png" class="paddingicon">NBA Mobile Live</a></li>
+            <li role="presentation"><a href="#" class="light-grey-text"><i class="fa fa-caret-down paddingicon" aria-hidden="true"></i>See More..</a></li>
+          </ul>
+          <ul class="nav nav-pills nav-stacked">
+            <p class="list-heading sidebar-heading">EXPLORE</p>
+            <li role="presentation"><a href="#" class="sidebar-options"><img src="G:\FrontEnd\img\group.png" class="paddingicon">Groups</a></li>
+            <li role="presentation"><a href="#" class="sidebar-options"><img src="G:\FrontEnd\img\events.png" class="paddingicon">Events</a></li>
+            <li role="presentation"><a href="#" class="sidebar-options"><img src="G:\FrontEnd\img\pages icon.png" class="paddingicon">Pages<span class="badge mybadge">12</span></a></li>
+            <li role="presentation"><a href="#" class="sidebar-options"><img src="G:\FrontEnd\img\clock-grey.png" class="paddingicon">On This Day<span class="badge mybadge">2</span></a></li>
+            <li role="presentation"><a href="#" class="light-grey-text"><i class="fa fa-caret-down paddingicon" aria-hidden="true"></i>See More..</a></li>
+          </ul>
+        </div>
+      </div>
+<!--The main feed  -->
+        <div class="col-xs-12 col-sm-8 col-md-6">
+          <div id="main" style="margin-left:-19px">
+            <div class="panel panel-default">
+              <div class="panel-heading bg-panel">
+                <span><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span><a class="grey-text"href="#" style="padding-right:40px"> Create a Post </a></span>
+                    <span><span class="glyphicon glyphicon-picture " aria-hidden="true"></span><a class="grey-text"href="#" style="padding-right:40px"> Photo/Video Album </a></span>
+                    <span><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span><a class="grey-text"href="#" style="padding-right:40px"> Live Video</a></span>
+              </div>
+              <div class="panel-body">
+              </a><img src="G:\FrontEnd\img\me.jpg" alt="" class="image-panel"></a>
+                <input type="text" class="input-area" placeholder="Hi, Dhawal. Tell your friends about your day.">
+              </div>
+              <div class="panel-footer">
+                  <a href="#" style="padding-right:15px"> <img src="G:\FrontEnd\img\check-in.png" style="height:15px"> Check-In </a>
+                  <a href="#"> <img src="G:\FrontEnd\img\smiley.png" style="height:15px"> Feeling / Activity </a>
+              </div>
+            </div>
+
+<!-- Quote -->
+            <div class="panel panel-default">
+              <div class="panel-heading bg-panel">
+                <div class="row">
+                  <div class="col-md-1 col-xs-1 col-sm-1" >
+                    <a href="#"><img src="G:\FrontEnd\img\me.jpg" alt="" class="image-panel">
+                  </div>
+                  <div class="col-md-7 col-xs-11 col-s-7">
+                    <span class="text-style">Dhawal Tripathi</span></a> added a new status
+                    <br><small><span class="light-grey-text">33 mins<span role="presentation" aria-hidden="true"> · </span> <span class="glyphicon glyphicon-globe"></span></small>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-body">
+                <div>
+                <blockquote>
+                  <p>"Papa Kahte Hain Bada Naam Karega."</p>
+                  <footer>Papa</footer>
+                </blockquote>
+                </div>
+                <div>
+                  <small><span style="float:right">2 Comments<span role="presentation" aria-hidden="true"> · </span>1 Share</span></small>
+                  <span><span class="glyphicon glyphicon-thumbs-up grey-text" aria-hidden="true"></span><a class="grey-text"href="#">Like</a></span>
+                      <span><span class="glyphicon glyphicon-comment grey-text" aria-hidden="true"></span><a class="grey-text"href="#">Comment</a></span>
+                      <span><span class="glyphicon glyphicon-share grey-text" aria-hidden="true"></span><a class="grey-text"href="#">Share</a></span>                                                                                                                    </b>
+              </div>
+              </div>
+              <div class="panel-footer">
+                <div class="media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="media-object image-panel" src="G:\FrontEnd\img\me.jpg" alt="...">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h5 class="media-heading"><p class="comment"><b> <span><a href="#" class="text-style">Dhawal Tripathi </a></b></span> Keep droppin' that knowledge pops! </p></h5>
+                    <div>
+                      <small><span> <a href="#">Like </a></span> <span><span role="presentation" aria-hidden="true"> · </span> <a href="#">Reply </a></span></small>
+                    </div>
+                  </div>
+                </div>
+                <div class="media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="media-object image-panel" src="G:\FrontEnd\img\papa.jpg" alt="...">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h5 class="media-heading"><p class="comment"><b><span><a href="#" class="text-style">Vinod Tripathi</a></b></span> Will drop it right on you, if the grades are not right, son. </p></h5>
+                    <div>
+                      <small><span> <a href="#">Like </a></span> <span><span role="presentation" aria-hidden="true"> · </span> <a href="#">Reply </a></span></small>
+                    </div>
+                  </div>
+                    <input placeholder="Write a comment..." style="width: 100%;margin-top: 15px; padding-left:5px">
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading bg-panel">
+                <div class="row">
+                  <div class="col-md-1 col-xs-1 col-sm-1" >
+                    <a href="#"><img src="G:\FrontEnd\img\me.jpg" alt="" class="image-panel">
+                  </div>
+                  <div class="col-md-7 col-xs-11 col-s-7">
+                    <span class="text-style">Dhawal Tripathi</span></a> changed his cover picture
+                    <br><small><span class="light-grey-text">33 mins<span role="presentation" aria-hidden="true"> · </span> <span class="glyphicon glyphicon-globe"></span></small>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-body">
+                <div class="image-post">
+                  <img src="http://i.imgur.com/NvRFtMp.jpg?1" class="img-responsive" alt="Please update your browser for this to work!">
+                </div>
+                <div>
+                  <small><span style="float:right">2 Comments . 1 Share</span></small>
+                  <span><span class="glyphicon glyphicon-thumbs-up grey-text" aria-hidden="true"></span><a class="grey-text"href="#">Like</a></span>
+                      <span><span class="glyphicon glyphicon-comment grey-text" aria-hidden="true"></span><a class="grey-text"href="#">Comment</a></span>
+                      <span><span class="glyphicon glyphicon-share grey-text" aria-hidden="true"></span><a class="grey-text"href="#">Share</a></span>                                                                                                                    </b>
+              </div>
+              </div>
+              <div class="panel-footer">
+                <div class="media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="media-object image-panel" src="G:\FrontEnd\img\me.jpg" alt="...">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h5 class="media-heading"><p class="comment"><b> <span><a href="#" class="text-style">Dhawal Tripathi </a></b></span> I just copied all the comments. </p></h5>
+                    <div>
+                      <small><span> <a href="#">Like </a></span> <span><span role="presentation" aria-hidden="true"> · </span> <a href="#">Reply </a></span></small>
+                    </div>
+                  </div>
+                </div>
+                <div class="media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="media-object image-panel" src="G:\FrontEnd\img\papa.jpg" alt="...">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h5 class="media-heading"><p class="comment"><b><span><a href="#" class="text-style">Vinod Tripathi</a></b></span> People won't read this anyway, son. </p></h5>
+                    <div>
+                      <small><span> <a href="#">Like </a></span> <span><span role="presentation" aria-hidden="true"> · </span> <a href="#">Reply </a></span></small>
+                    </div>
+                  </div>
+                    <input placeholder="Write a comment..." style="width: 100%;margin-top: 15px; padding-left:5px">
+                </div>
+              </div>
+            </div>
+
+
+            <div class="panel panel-default">
+              <div class="panel-heading bg-panel">
+                <div class="row">
+                  <div class="col-md-1 col-xs-1 col-sm-1" >
+                    <a href="#"><img src="G:\FrontEnd\img\me.jpg" alt="" class="image-panel">
+                  </div>
+                  <div class="col-md-7 col-xs-11 col-s-7">
+                    <span class="text-style">Dhawal Tripathi</span></a> added a new status
+                    <br><small><span class="light-grey-text">33 mins<span role="presentation" aria-hidden="true"> · </span> <span class="glyphicon glyphicon-globe"></span></small>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-body">
+                  <div><h3 class="text-post">You lose like 50% of your marks if you don't complete the objectives defined in "Objectives" section.</h3></div>
+                  <div>
+                    <small><span style="float:right">2 Comments . 78 Share</span></small>
+                    <span><span class="glyphicon glyphicon-thumbs-up grey-text" aria-hidden="true"></span><a class="grey-text"href="#">Like</a></span>
+                        <span><span class="glyphicon glyphicon-comment grey-text" aria-hidden="true"></span><a class="grey-text"href="#">Comment</a></span>
+                        <span><span class="glyphicon glyphicon-share grey-text" aria-hidden="true"></span><a class="grey-text"href="#">Share</a></span>                                                                                                                    </b>
+                </div>
+                </div>
+                <div class="panel-footer">
+                  <div class="media">
+                    <div class="media-left">
+                      <a href="#">
+                        <img class="media-object image-panel" src="G:\FrontEnd\img\me.jpg" alt="...">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <h5 class="media-heading"><p class="comment"><b> <span><a href="#" class="text-style">Dhawal Tripathi </a></b></span> I just copied all the comments. </p></h5>
+                      <div>
+                        <small><span> <a href="#">Like </a></span> <span><span role="presentation" aria-hidden="true"> · </span> <a href="#">Reply </a></span></small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="media">
+                    <div class="media-left">
+                      <a href="#">
+                        <img class="media-object image-panel" src="G:\FrontEnd\img\papa.jpg" alt="...">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <h5 class="media-heading"><p class="comment"><b><span><a href="#" class="text-style">Vinod Tripathi</a></b></span> You are one lazy guy, son. </p></h5>
+                      <div>
+                        <small><span> <a href="#">Like </a></span> <span><span role="presentation" aria-hidden="true"> · </span> <a href="#">Reply </a></span></small>
+                      </div>
+                    </div>
+                      <input placeholder="Write a comment..." style="width: 100%;margin-top: 15px; padding-left:5px">
+                  </div>
+                </div>
+              </div>
+<!--Video Post  -->
+          <div class="panel panel-default">
+            <div class="panel-heading bg-panel">
+              <div class="row">
+                <div class="col-md-1 col-xs-1 col-sm-1" >
+                  <a href="#"><img src="G:\FrontEnd\img\me.jpg" alt="" class="image-panel">
+                </div>
+                <div class="col-md-7 col-xs-11 col-s-7">
+                  <span class="text-style">Dhawal Tripathi</span></a> shared a video
+                  <br><small><span class="light-grey-text">33 mins<span role="presentation" aria-hidden="true"> · </span> <span class="glyphicon glyphicon-globe"></span></small>
+                </div>
+              </div>
+            </div>
+            <div class="panel-body">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="854" height="480" src="https://www.youtube.com/embed/vHU6ZRQJ50Q?ecver=1" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                  <div style="margin-top:5px">
+                    <small><span style="float:right">2 Comments . 1 Share</span></small>
+                    <span><span class="glyphicon glyphicon-thumbs-up grey-text" aria-hidden="true"></span><a class="grey-text"href="#">Like</a></span>
+                        <span><span class="glyphicon glyphicon-comment grey-text" aria-hidden="true"></span><a class="grey-text"href="#">Comment</a></span>
+                        <span><span class="glyphicon glyphicon-share grey-text" aria-hidden="true"></span><a class="grey-text"href="#">Share</a></span>                                                                                                                    </b>
+                </div>
+            </div>
+            <div class="panel-footer"><input placeholder="Be the first to comment..." style="width: 100%; padding-left:5px"></div>
+          </div>
+           <!-- <div class="panel panel-default">  -->
+            <!-- <div class="panel-heading bg-panel">
+              <div class="row">
+                <div class="col-md-1 col-xs-1 col-sm-1" >
+                  <a href="#"><img src="G:\FrontEnd\img\me.jpg" alt="" class="image-panel">
+                </div>
+                <div class="col-md-7 col-xs-11 col-s-7">
+                  <span class="text-style">Dhawal Tripathi</span></a> added a new photo album
+                  <br><small><span class="light-grey-text">9 mins<span role="presentation" aria-hidden="true"> · </span> <span class="glyphicon glyphicon-globe"></span></small>
+                </div>
+              </div>
+            </div>
+            <div class="panel-body">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active">
+                    <img class="d-block img-fluid" src="G:\FrontEnd\img\8ball.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block img-fluid" src="G:\FrontEnd\img\djbooth.png" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block img-fluid" src="G:\FrontEnd\img" alt="Third slide">
+                  </div>
+                </div>
+              </div>
+              <div>
+                <small><span style="float:right">2 Comments<span role="presentation" aria-hidden="true"> · </span>1 Share</span></small>
+                <span><span class="glyphicon glyphicon-thumbs-up grey-text" aria-hidden="true"></span><a class="grey-text"href="#">Like</a></span>
+                    <span><span class="glyphicon glyphicon-comment grey-text" aria-hidden="true"></span><a class="grey-text"href="#">Comment</a></span>
+                    <span><span class="glyphicon glyphicon-share grey-text" aria-hidden="true"></span><a class="grey-text"href="#">Share</a></span>                                                                                                                    </b>
+            </div>
+            </div>
+            <div class="panel-footer">
+              <div class="media">
+                <div class="media-left">
+                  <a href="#">
+                    <img class="media-object image-panel" src="G:\FrontEnd\img\me.jpg" alt="...">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <h5 class="media-heading"><p class="comment"><b> <span><a href="#" class="text-style">Dhawal Tripathi </a></b></span> Keep droppin' that knowledge pops! </p></h5>
+                  <div>
+                    <small><span> <a href="#">Like </a></span> <span><span role="presentation" aria-hidden="true"> · </span> <a href="#">Reply </a></span></small>
+                  </div>
+                </div>
+              </div>
+              <div class="media">
+                <div class="media-left">
+                  <a href="#">
+                    <img class="media-object image-panel" src="G:\FrontEnd\img\papa.jpg" alt="...">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <h5 class="media-heading"><p class="comment"><b><span><a href="#" class="text-style">Vinod Tripathi</a></b></span> Will drop it right on you, if the grades are not right, son. </p></h5>
+                  <div>
+                    <small><span> <a href="#">Like </a></span> <span><span role="presentation" aria-hidden="true"> · </span> <a href="#">Reply </a></span></small>
+                  </div>
+                </div>
+                  <input placeholder="Write a comment..." style="width: 100%;margin-top: 15px; padding-left:5px">
+              </div>
+            </div>
+          </div> -->
+          </div>
+        </div>
+
+        <div class="hidden-xs hidden-sm col-md-3" style="background-color:#e9ebee; margin-left:-19px">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <span><i><i class="fa fa-gift" style="color:#e55ea2; padding-right:5px" aria-hidden="true"></i></i><span><a href="#">James Harden</a> and <a href="#">2 others </a>have birthdays today.</span></span>
+              </div>
+            </div>
+            <div id="sidebar" style="padding:5px; background-color:white; height:450px">
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation"><a href="#trending" aria-controls="home" role="tab" data-toggle="tab" class="grey-text"><small>TRENDING</small></a></li>
+              <li role="presentation"><a href="#top" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-newspaper-o" aria-hidden="true"></i></a></li>
+              <li role="presentation"><a href="#politics" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-film" aria-hidden="true"></i></a></li>
+              <li role="presentation"><a href="#sports" aria-controls="messages" role="tab" data-toggle="tab"><i class="fa fa-futbol-o" aria-hidden="true"></i></a></li>
+            </ul>
+          <!-- Tab panes -->
+          <div class="tab-content" style="margin-top:10px">
+              <div role="tabpanel" class="tab-pane active" id="trending">
+                <i class="fa fa-line-chart" aria-hidden="true"  style="color:blue"></i>
+                <a href="http://www.news18.com/newstopics/akshay-kumar.html"><b>Akshay Kumar</a></b><br>
+                Akshay Kumar Shares First Look of Olympics-based Film Gold <span class="light-grey-text">‑ news18.com</span></br>
+                <i class="fa fa-line-chart" aria-hidden="true"  style="color:blue"></i>
+                <a href="http://www.hindustantimes.com/cricket/live-india-vs-pakistan-icc-women-s-world-cup-2017-live-cricket-score/story-3KO8SA7JU8QLoQwvYnGlZJ.html"><b>India vs. Pakistan</a></b><br>
+                India vs Pakistan, ICC Women’s World Cup, live cricket… <span class="light-grey-text">‑ hindustantimes.com</span></br>
+
+                <i class="fa fa-line-chart" aria-hidden="true"  style="color:blue"></i>
+                <a href="http://www.espncricinfo.com/ci/engine/current/match/1104478.html"><b>Sri Lanka vs. Zimbabwe</a></b><br>
+                Live Cricket Score - Sri Lanka vs Zimbabwe, 2nd ODI <span class="light-grey-text">‑ cricbuzz.com</span></br>
+
+              </div>
+              <div role="tabpanel" class="tab-pane active" id="top">
+                  <i class="fa fa-line-chart" aria-hidden="true"  style="color:blue"></i>
+                  <b><a href="http://www.livemint.com/Politics/1qDa4XM5EJUQ6BXb2l0RHN/All-you-need-to-know-about-GST.html">Goods and Services Tax</a></b><br>
+                  As India enters GST era, small traders are hopeful. <span class="light-grey-text">‑ in.news.yahoo.com</span></br>
+                  <i class="fa fa-line-chart" aria-hidden="true"  style="color:blue"></i>
+                  <b><a href="http://www.smh.com.au/sport/boxing/sun-shines-on-jeff-horn-as-he-stuns-manny-pacquiao--and-the-boxing-world-20170702-gx2vxu.html">Jeff Horn vs. Manny Pacquiao</a></b><br>
+                  Jeff Horn scores controversial decision. Manny, to take… <span class="light-grey-text">‑ usatoday.com</span></br>
+                  <i class="fa fa-line-chart" aria-hidden="true"  style="color:blue"></i>
+                  <b><a href="http://www.smh.com.au/sport/boxing/sun-shines-on-jeff-horn-as-he-stuns-manny-pacquiao--and-the-boxing-world-20170702-gx2vxu.html">Narendra Modi</a></b><br>
+                Tough action against those helping hide black money, over… <span class="light-grey-text">‑ indiatimes.com</span></br>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="politics">
+                <i class="fa fa-line-chart" aria-hidden="true"  style="color:blue"></i>
+                <a href="http://www.news18.com/newstopics/akshay-kumar.html"><b>Akshay Kumar</a></b><br>
+                Akshay Kumar Shares First Look of Olympics-based Film Gold <span class="light-grey-text">‑ news18.com</span></br>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="sports">
+                <i class="fa fa-line-chart" aria-hidden="true"  style="color:blue"></i>
+                <a href="http://www.hindustantimes.com/cricket/live-india-vs-pakistan-icc-women-s-world-cup-2017-live-cricket-score/story-3KO8SA7JU8QLoQwvYnGlZJ.html"><b>India vs. Pakistan</a></b><br>
+                India vs Pakistan, ICC Women’s World Cup, live cricket… <span class="light-grey-text">‑ hindustantimes.com</span></br>
+
+                <i class="fa fa-line-chart" aria-hidden="true"  style="color:blue"></i>
+                <a href="http://www.livemint.com/Politics/1qDa4XM5EJUQ6BXb2l0RHN/All-you-need-to-know-about-GST.html"><b>Sri Lanka vs. Zimbabwe</a></b><br>
+                Live Cricket Score - Sri Lanka vs Zimbabwe, 2nd ODI <span class="light-grey-text">‑ cricbuzz.com</span></br>
+
+                <i class="fa fa-line-chart" aria-hidden="true"  style="color:blue"></i>
+                <a href="http://www.livemint.com/Politics/1qDa4XM5EJUQ6BXb2l0RHN/All-you-need-to-know-about-GST.html"><b>Cricket Australia</a></b><br>
+                Australian players to boycott 'A' tour of South… <span class="light-grey-text">‑ timesofindia.indiatimes.com</span></br>
+              </div>
+          </div>
+          </div>
+          <div class="panel panel-default" style="margin-top:10px">
+            <div class="panel-heading">
+              <h5 class="panel-title text-style" style="font-size:15px"><a href="#">Recommended Pages</a></h5>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-md-1">
+                    <img src="G:\FrontEnd\img\djbooth.png" style="height:30px; width:30px">
+                </div>
+                <div class="col-md-2" style="padding-left:20px">
+                  <a href="#"><b>DJBooth.in</b></a><br>
+                  <a><i class="fa fa-thumbs-up" aria-hidden="true"style="padding-left:5px; color:#3b5998"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <ul class="nav nav-pills pull-right">
+      <li role="presentation "><a class="light-grey-text"href="# ">About Us</a></li>
+      <li role="presentation "><a class="light-grey-text"href="# ">Home</a></li>
+      <li role="presentation "><a class="light-grey-text"href="# ">Privacy</a></li>
+      <li role="presentation "><a class="light-grey-text"href="# ">Advertising</a></li>
+      <li role="presentation "><a class="light-grey-text"href="# ">Cookies</a></li>
+      <li role="presentation "><a class="light-grey-text"href="# ">Ad Choices</a></li>
+    </ul>
+      </footer>
+    </div>
+  </body>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    $('.carousel').carousel({
+  interval: 2000
+})
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
